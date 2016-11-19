@@ -1,24 +1,23 @@
-# README
+Counter
+=======
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Dependencies
 
-Things you may want to cover:
+* Postgresql
+* Ruby 2.3.2
+* Bundler (`gem install bundler`)
 
-* Ruby version
+## Development Environment Setup
 
-* System dependencies
+    # development environment
+    $ git clone git@github.com:amorphid/sampleapp.git
+    $ cd sampleapp
+    $ bundle install
+    $ bin/rails db:setup
 
-* Configuration
+## Development Environment
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* start the server => `$ bin/rails s`
+* visit [the home page](http://localhost:3000/)
+* click on the counter button
+* if counter increments up by one, everything is working correctly
