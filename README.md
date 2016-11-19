@@ -19,5 +19,5 @@ Counter
 
 * start the server => `$ bin/rails s`
 * visit [the home page](http://localhost:3000/)
-* click on the counter button
+* click on the `count` button
 * if counter increments up by one, everything is working correctly
